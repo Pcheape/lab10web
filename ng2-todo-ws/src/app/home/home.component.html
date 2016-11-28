@@ -1,0 +1,22 @@
+
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      
+         <li><a (click)="navigate()">Home</a> | <a [routerLink]="['Home']"></a></li>
+      <li><a (click)="navigate()">About</a> | <a [routerLink]="['About']"></a></li>
+      <li><a (click)="navigate()">todo</a> | <a [routerLink]="['todo-app']"></a></li>
+      
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3>Basic Navbar Example</h3>
+  <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
+</div>
